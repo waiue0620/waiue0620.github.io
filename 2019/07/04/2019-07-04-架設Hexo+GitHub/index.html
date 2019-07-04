@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-tw">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="架設Hexo+GitHub 1.進入 GitHub 開啟 Repo  Repository Name 輸入: 1自己名稱.github.io 2.安裝 Hexo 由於 Nexo 是使用指令安裝，所以要開啟 CMD (終端機) 來輸入以下指令 1npm install hexo-cli -g 3.建立 Hexo 首先建議先到你想建立的目錄再輸入，輸入以下指令 ( projectname 換成自己的名">
+<meta name="keywords" content="Hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="架設Hexo+GitHub">
+<meta property="og:url" content="http://waiue0620.github.io/2019/07/04/2019-07-04-架設Hexo+GitHub/index.html">
+<meta property="og:site_name" content="個人前端筆記">
+<meta property="og:description" content="架設Hexo+GitHub 1.進入 GitHub 開啟 Repo  Repository Name 輸入: 1自己名稱.github.io 2.安裝 Hexo 由於 Nexo 是使用指令安裝，所以要開啟 CMD (終端機) 來輸入以下指令 1npm install hexo-cli -g 3.建立 Hexo 首先建議先到你想建立的目錄再輸入，輸入以下指令 ( projectname 換成自己的名">
+<meta property="og:locale" content="zh-tw">
+<meta property="og:image" content="https://i.imgur.com/bEkkBua.png">
+<meta property="og:image" content="https://i.imgur.com/O8ElyOE.png">
+<meta property="og:image" content="https://i.imgur.com/7HDshjl.png">
+<meta property="og:image" content="https://i.imgur.com/r6hWKAj.png">
+<meta property="og:image" content="https://i.imgur.com/Hezzgg1.png">
+<meta property="og:image" content="https://i.imgur.com/s6r1OHs.png">
+<meta property="og:updated_time" content="2019-07-04T15:52:00.688Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="架設Hexo+GitHub">
+<meta name="twitter:description" content="架設Hexo+GitHub 1.進入 GitHub 開啟 Repo  Repository Name 輸入: 1自己名稱.github.io 2.安裝 Hexo 由於 Nexo 是使用指令安裝，所以要開啟 CMD (終端機) 來輸入以下指令 1npm install hexo-cli -g 3.建立 Hexo 首先建議先到你想建立的目錄再輸入，輸入以下指令 ( projectname 換成自己的名">
+<meta name="twitter:image" content="https://i.imgur.com/bEkkBua.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://waiue0620.github.io/2019/07/04/2019-07-04-架設Hexo+GitHub/">
+
+
+
+
+
+  <title>架設Hexo+GitHub | 個人前端筆記</title>
+  
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143255203-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143255203-1');
+</script>
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">個人前端筆記</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            標籤
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分類
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            歸檔
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            檢索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://waiue0620.github.io/2019/07/04/2019-07-04-架設Hexo+GitHub/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="z">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="個人前端筆記">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">架設Hexo+GitHub</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2019-07-04T00:00:00+08:00">
+                2019-07-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分類於</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="jia-she-hexo-git-hub">架設Hexo+GitHub</h2>
+<h3 id="1-jin-ru-git-hub-kai-qi-repo">1.進入 GitHub 開啟 Repo</h3>
+<p><img src="https://i.imgur.com/bEkkBua.png" alt></p>
+<p>Repository Name 輸入:
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">自己名稱.github.io</span><br></pre></td></tr></table></figure></p>
+<h3 id="2-an-zhuang-hexo">2.安裝 Hexo</h3>
+<p>由於 Nexo 是使用指令安裝，所以要開啟 CMD (終端機) 來輸入以下指令
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></p>
+<h3 id="3-jian-li-hexo">3.建立 Hexo</h3>
+<p>首先建議先到你想建立的目錄再輸入，輸入以下指令 ( projectname 換成自己的名稱)
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init projectname</span><br></pre></td></tr></table></figure></p>
+<h3 id="4-qi-dong-hexo">4.啟動Hexo</h3>
+<p>進入 Hexo 目錄後，啟動 Hexo。
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></p>
+<h2 id="zhu-ti-lai-yuan">主題來源</h2>
+<p>這次所使用的主題是<a href="https://theme-next.iissnan.com/" target="_blank" rel="noopener">Next</a></p>
+<p>官方](https://hexo.io/themes/)也有許多的主題可以取得</p>
+<h3 id="ti-huan-zhu-ti">替換主題</h3>
+<p>下載主題後將主題解壓縮至 Blog 資料夾的 themes 下</p>
+<p><img src="https://i.imgur.com/O8ElyOE.png" alt></p>
+<p>並開啟 _config.yml</p>
+<p><img src="https://i.imgur.com/7HDshjl.png" alt></p>
+<p>透過收尋尋找theme</p>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: hexo-theme-next-master</span><br></pre></td></tr></table></figure></p>
+<p>將 theme 改成你剛剛下載的主題資料夾名稱，然後輸入指令重啟即可。
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></p>
+<h3 id="hexo-ji-chu-she-zhi">Hexo 基礎設置</h3>
+<p>主要會修改 _config.yml 的地方只有這幾個。
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Site</span><br><span class="line">title: Welcome.Web.World // 網站標題</span><br><span class="line">subtitle: 歡迎來到網路世界。 // 網站副標題</span><br><span class="line">description: Welcome.Web.World // 網站敘述</span><br><span class="line">keywords: // 關鍵字</span><br><span class="line">author:  // 網站作者</span><br><span class="line">language: zh-TW // 網站語系</span><br><span class="line">timezone:</span><br><span class="line"></span><br><span class="line">URL</span><br><span class="line">url: http://yoursite.com //輸入您的網站URL，舉例我的就是waiue0620.github.io</span><br><span class="line">root: /</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br></pre></td></tr></table></figure></p>
+<h3 id="she-qun-lian-jie">社群連結</h3>
+<p>社群連結相關設定查詢 Social Links 就可以看到相關設定
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">social:</span><br><span class="line">  GitHub: https://github.com/hsiangfeng || github</span><br><span class="line">  E-Mail: mailto:yourname@gmail.com || envelope</span><br><span class="line">  Weibo: https://weibo.com/yourname || weibo</span><br><span class="line">  Google: https://plus.google.com/yourname || google</span><br><span class="line">  Twitter: https://twitter.com/yourname || twitter</span><br><span class="line">  FB: https://www.facebook.com/HsiangFeng.hf || facebook</span><br><span class="line">  VK Group: https://vk.com/yourname || vk</span><br><span class="line">  StackOverflow: https://stackoverflow.com/yourname || stack-overflow</span><br><span class="line">  YouTube: https://youtube.com/yourname || youtube</span><br><span class="line">  Instagram: https://instagram.com/yourname || instagram</span><br><span class="line">  Skype: skype:yourname?call|chat || skype</span><br></pre></td></tr></table></figure></p>
+<h3 id="xiu-gai-tou-xiang">修改頭像</h3>
+<p>首先必須進入主題 (Theme) 的設置檔 (_config.yml)，然後查詢 avatar，並依照下方範例參考輸入。
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">avatar:</span><br><span class="line">  url: /images/avatar.gif // 頭像路徑</span><br><span class="line">  rounded: false // 頭像是否為圓形</span><br><span class="line">  opacity: 1 // 透明度</span><br><span class="line">  rotated: false // 滑鼠移過去是否自動旋轉</span><br></pre></td></tr></table></figure></p>
+<h3 id="ce-bian-lan-wei-zhi">側邊欄位置</h3>
+<p>預設位子在左邊，若不喜歡左邊可修改至右邊，查詢 sidebar，並將 <code>position: left</code> 修改成 <code>position: right</code> 即可，</p>
+<blockquote>
+<p>※僅對 Pisces 或 Gemini 主題有效，預設主題則無效</p>
+</blockquote>
+<h3 id="zhu-ti-xiu-gai-fang-shi">主題修改方式</h3>
+<p>查詢 Scheme Settings，就可以修改主題了，預設提供四種主題，只需要將 # 移除即可。</p>
+<h3 id="xian-shi-gun-dong-bai-fen-bi">顯示滾動百分比</h3>
+<p>閱讀文章時若能觀看目前看的百分比是不錯的，所以僅需要將 <code>scrollpercent: false</code> 修改成 <code>scrollpercent: true</code> 即可。</p>
+<h3 id="she-zhi-shou-ye-bu-xian-shi-quan-wen-zhi-xian-shi-yu-lan">設置首頁不顯示全文(只顯示預覽)</h3>
+<ol>
+<li>編輯主題配置文件 _config.yml，搜索 auto_excerpt 字段，設置 enable 的其值為 true</li>
+</ol>
+<p><img src="https://i.imgur.com/r6hWKAj.png" alt></p>
+<h2 id="bu-shu-git-hub">部屬 GitHub</h2>
+<p>部屬之前必須先安裝一個插件，因為預設 Hexo 並沒有安裝</p>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<p>另外因為要上傳到 GitHub，_config.yml 還有 Deployment 的地方必須調整</p>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/waiue0620/waiue0620.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+<p>修改完畢後輸入指令即可。
+PS.要小心空格 type、 repo、 branch 前面各自有空格。
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h2 id="hexo-qi-ta-zhi-ling">Hexo其他指令</h2>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">hexo help #查看帮助</span><br><span class="line">hexo init #初始化一个目录</span><br><span class="line">hexo new &quot;postName&quot; #新建文章</span><br><span class="line">hexo new page &quot;pageName&quot; #新建页面</span><br><span class="line">hexo generate #生成网页，可以在 public 目录查看整个网站的文件</span><br><span class="line">hexo server #啟動Hexo server，本地预览，&apos;Ctrl+C&apos;关闭</span><br><span class="line">hexo deploy #部署.deploy目录</span><br><span class="line">hexo clean #清除缓存，**强烈建议每次执行命令前先清理缓存，每次部署前先删除 .deploy 文件夹**</span><br><span class="line">hexo s g #啟動伺服器，生成靜態頁面</span><br><span class="line">hexo d g #部屬模式，生成靜態頁面</span><br></pre></td></tr></table></figure></p>
+<h2 id="ti-hexo-jia-ru-search-gong-neng">替 Hexo 加入 Search 功能</h2>
+<p>由於預設是沒有站內 Search 功能，所以必須另外加裝外掛<a href="https://github.com/theme-next/hexo-generator-searchdb" target="_blank" rel="noopener">hexo-generator-searchdb</a></p>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure></p>
+<p>安裝完必要先修改站點的設定檔 (_config.yml)，複製以下程式碼貼在任意地方
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">// 搜尋功能</span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 100</span><br></pre></td></tr></table></figure></p>
+<p>參數說明:</p>
+<ul>
+<li>path:
+<ul>
+<li>預設通常是 search.xml</li>
+<li>若改為 search.json 就會改生成 search.json，而且檔案大小也會比較小</li>
+</ul>
+</li>
+<li>field:
+<ul>
+<li>post (Default) - 僅搜尋你發布的文章</li>
+<li>page - 僅收錄頁面</li>
+<li>all - 全部收錄</li>
+</ul>
+</li>
+<li>format - 搜尋頁面的形式，但是僅限於 XML
+<ul>
+<li>html (Default) - 壓縮的原始 HTML</li>
+<li>raw - 原始文本(也就是 markdown)</li>
+<li>excerpt - 只收入摘要 (但是我測試後是只有標題??)</li>
+<li>more - 更多 ((????</li>
+</ul>
+</li>
+<li>limit - 自定義被索引的帖子數量</li>
+</ul>
+<p>接下來替主題開啟 Search，這邊以 NexT 為例。
+開啟主題設定檔 (_config.yml)，然後查詢 Local search，並將 enable 修改為 true 即可</p>
+<p>而我的 Search 設置是這樣</p>
+<p>search:
+path: search.json
+field: post
+format: html
+limit: 10000</p>
+<h2 id="jia-ru-google-analytics">加入 Google Analytics</h2>
+<p>這邊使用 NexT 模板作舉例。
+進入主題 (theme) 中尋找 _config 檔案，並尋找約 754 行~ 757 行
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">google_analytics:</span><br><span class="line">  tracking_id: </span><br><span class="line">  localhost_ignored:</span><br><span class="line">// 修改成以下</span><br><span class="line">google_analytics:</span><br><span class="line">  tracking_id: UA-XXXXXX-1 //UAID追蹤碼</span><br><span class="line">  localhost_ignored: true</span><br></pre></td></tr></table></figure></p>
+<p>再來還有一個檔案需要修改</p>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">檔案路徑:themes\hexo-theme-next-master\layout\_third-party\analytics\google-analytics.swig</span><br></pre></td></tr></table></figure></p>
+<p>將檔案內容給為Google Analytics 網站追蹤 全域網站代碼</p>
+<p>查詢追蹤ID、全域網站代碼方法，如下圖</p>
+<p><img src="https://i.imgur.com/Hezzgg1.png" alt></p>
+<h2 id="tian-jia-google-sou-suo">添加Google搜索</h2>
+<ol>
+<li>登陸 Google賬號，添加了站點驗證</li>
+<li>前往 <a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Search Console</a></li>
+</ol>
+<p><img src="https://i.imgur.com/s6r1OHs.png" alt></p>
+<ol start="3">
+<li>
+<p>下載HTML認證文件</p>
+</li>
+<li>
+<p>將該文件放在站點根目錄的 source 目錄下</p>
+</li>
+<li>
+<p>再配置文件 _config.yml 下有一個 skip_render，將驗證文件填入即可保持原樣跳過渲染，如： skip_render: google866eed5335bef122.html</p>
+</li>
+<li>
+<p>點擊認證</p>
+<blockquote>
+<p>注意：為避免HTML驗證文件在用命令hexo generate &amp; hexo deploy之後，網站根目錄生成HTML驗證文件被hexo和next主題加了自己的東西，導致驗證不通過，在站點配置文件_config.yml 下有一個skip_render，將驗證文件填入即可保持原樣跳過渲染，如： skip_render: google866eed5335bef122.html</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="can-kao-zi-liao">參考資料</h2>
+<p><a href="https://hsiangfeng.github.io/hexo/20190411/932826160/" target="_blank" rel="noopener">架設Hexo+GitHub</a>
+<a href="http://wuxiaolong.me/2015/07/31/build-blog-by-hexo/" target="_blank" rel="noopener">手把手教你建github技术博客by hexo</a>
+<a href="https://hsiangfeng.github.io/hexo/20190413/2508191011/" target="_blank" rel="noopener">Hexo側邊欄修改</a>
+<a href="http://blog.shenyuanluo.com/HexoConfig2.html" target="_blank" rel="noopener">Hexo的Next主题个性化设置（二）——进阶设置</a>
+<a href="https://tiida54.github.io/2018/01/09/3%E5%88%86%E9%90%98%E5%AE%8C%E6%88%90Hexo%E7%B6%B2%E7%AB%99%E5%9C%B0%E5%9C%96Sitemap%E8%A8%AD%E5%AE%9A/" target="_blank" rel="noopener">3分鐘完成Hexo網站地圖Sitemap設定</a></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/11/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">z</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">文章</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分類</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">標籤</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/waiue0620" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:waiue0620@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#jia-she-hexo-git-hub"><span class="nav-number">1.</span> <span class="nav-text">架設Hexo+GitHub</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-jin-ru-git-hub-kai-qi-repo"><span class="nav-number">1.1.</span> <span class="nav-text">1.進入 GitHub 開啟 Repo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-an-zhuang-hexo"><span class="nav-number">1.2.</span> <span class="nav-text">2.安裝 Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-jian-li-hexo"><span class="nav-number">1.3.</span> <span class="nav-text">3.建立 Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-qi-dong-hexo"><span class="nav-number">1.4.</span> <span class="nav-text">4.啟動Hexo</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#zhu-ti-lai-yuan"><span class="nav-number">2.</span> <span class="nav-text">主題來源</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#ti-huan-zhu-ti"><span class="nav-number">2.1.</span> <span class="nav-text">替換主題</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-ji-chu-she-zhi"><span class="nav-number">2.2.</span> <span class="nav-text">Hexo 基礎設置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#she-qun-lian-jie"><span class="nav-number">2.3.</span> <span class="nav-text">社群連結</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#xiu-gai-tou-xiang"><span class="nav-number">2.4.</span> <span class="nav-text">修改頭像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ce-bian-lan-wei-zhi"><span class="nav-number">2.5.</span> <span class="nav-text">側邊欄位置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#zhu-ti-xiu-gai-fang-shi"><span class="nav-number">2.6.</span> <span class="nav-text">主題修改方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#xian-shi-gun-dong-bai-fen-bi"><span class="nav-number">2.7.</span> <span class="nav-text">顯示滾動百分比</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#she-zhi-shou-ye-bu-xian-shi-quan-wen-zhi-xian-shi-yu-lan"><span class="nav-number">2.8.</span> <span class="nav-text">設置首頁不顯示全文(只顯示預覽)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#bu-shu-git-hub"><span class="nav-number">3.</span> <span class="nav-text">部屬 GitHub</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo-qi-ta-zhi-ling"><span class="nav-number">4.</span> <span class="nav-text">Hexo其他指令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ti-hexo-jia-ru-search-gong-neng"><span class="nav-number">5.</span> <span class="nav-text">替 Hexo 加入 Search 功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#jia-ru-google-analytics"><span class="nav-number">6.</span> <span class="nav-text">加入 Google Analytics</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tian-jia-google-sou-suo"><span class="nav-number">7.</span> <span class="nav-text">添加Google搜索</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#can-kao-zi-liao"><span class="nav-number">8.</span> <span class="nav-text">參考資料</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">z</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 強力驅動</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主題 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
